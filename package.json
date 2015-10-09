@@ -1,0 +1,36 @@
+{
+  "name": "gvn",
+  "version": "1.0.0",
+  "description": "Global Value Numbering reduction for json-pipeline",
+  "main": "lib/gvn.js",
+  "scripts": {
+    "test": "mocha --reporter=spec test/*-test.js && jscs lib/*.js test/*.js && jshint lib/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/indutny/gvn.git"
+  },
+  "keywords": [
+    "GVN",
+    "json",
+    "pipeline",
+    "sea-of-nodes",
+    "DFG"
+  ],
+  "author": "Fedor Indutny <fedor@indutny.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/indutny/gvn/issues"
+  },
+  "homepage": "https://github.com/indutny/gvn#readme",
+  "devDependencies": {
+    "assert-text": "^1.1.2",
+    "jscs": "^2.3.0",
+    "jshint": "^2.8.0",
+    "json-pipeline": "^3.12.0",
+    "mocha": "^2.3.3"
+  },
+  "dependencies": {
+    "json-pipeline-reducer": "^1.5.0"
+  }
+}
